@@ -2,7 +2,10 @@ sofia.config = $.extend(sofia.config, {
         // Update date after making changes
             settingsPrefix: '20160814',
             
-            baseContentUrl: 'https://inscript.bible.cloud/',
+          textsIndexPath: 'dbs_texts.json',
+          baseContentUrl: 'https://inscript.bible.cloud/',
+          serverSearchPath: 'search.php',
+          aboutPagePath: 'about-dbs.html',
             
         // Bibles to first load
             windows: [
@@ -14,15 +17,13 @@ sofia.config = $.extend(sofia.config, {
                     "ARZVDV","CHNCU1","CHNNCS","CHNCUV","CHNNCT","ENGESV","ENGNAS","ENGKJV", 
                     "ENGHCS","ENGNIV","ENGNET","ENGWEB","GRCTIS","HNDWTC","HBOWLC","PORJFA",
                     "RU1IBS","SPNR60","SPNBLA"],
+            deafBibleWindowDefaultBibleVersion: 'ASESLS',
             
             enableBibleSelectorTabs: true,
-            textsIndexPath: 'dbs_texts.json',
-            serverSearchPath: 'search.php',
-            aboutPagePath: 'about-dbs.html',
             enableFeedback: true,
             eng2pEnableAll: true,
             enableDeafBibleWindow: true,
-            deafBibleWindowDefaultBibleVersion: 'ASESLS',
+
             
         // Enables the use of online sources (Google Maps, FCBH, Jesus Film, etc.)
             enableOnlineSources: true,
