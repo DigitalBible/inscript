@@ -25,5 +25,8 @@
 #main-search-input {width: 200px;height: 24px;font-size: 13px; margin-top:-14px;}
 #main-search-button {width: 28px;height: 24px; margin-top:-14px;}
 #main-fullscreen-button {top: 10px; right: 13px;background-size: 28px 28px; background-repeat:no-repeat;}
+
+#main-menu-dropdown {width: 300px; -x-height: 280px;background: #fff;top: 48px;}
+
 .close-container {top: 0;right: 0;width: 36px;height: 36px;background: transparent;}
 	
