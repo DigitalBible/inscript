@@ -15,7 +15,8 @@
 	background-image: url(https://images.bible.cloud/noise.png), -moz-linear-gradient(left,  #f9f9f9 0%,#f0f0f0 100%); 
  	border-right: 2px solid #ccc; border-bottom:thin #D8D8D8 groove;}
 
-#app-logo .icon {position: absolute; top: 12px; height: 28px; width: 144px; fill: #f4f4f4; color: #d2d2d2;}
+#app-logo	{position: absolute; top: 12px; height: 28px; width: 144px;}
+#app-logo .icon {fill: #f4f4f4; color: #d2d2d2;}
 #app-logo:hover .icon {fill: #000; color: yellow;}
 
 #main-menu-button {line-height: 50px;font-size: 1.8rem;color: #ddd;}
