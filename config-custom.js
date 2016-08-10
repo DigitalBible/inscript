@@ -35,7 +35,7 @@ sofia.config = $.extend(sofia.config, {
         // Keys
         fcbhKey: '111a125057abd2f8931f6d6ad9f2921f',
         jfmKey: '52b06248a3c6e8.12980089',
-        gaKey: 'UA-3734687-19',
+        gaKey: 'UA-75606747-4',
 	gaUrl: 'inscript.org',
 
 	// Exclusions
