@@ -15,12 +15,12 @@
 	background-image: url(https://images.bible.cloud/noise.png), -moz-linear-gradient(left,  #f9f9f9 0%,#f0f0f0 100%); 
  	border-right: 2px solid #ccc; border-bottom:thin #D8D8D8 groove;}
 
-#app-logo .icon	{position: absolute; height: 46px; width: 104px; left: 9px; fill: #eeeeee; color: #cccccc;}
+#app-logo .icon	{position: absolute; height: 46px; width: 104px; left: 9px; fill: #ddd; color: #bbb;}
 #app-logo:hover .icon {fill: #ffffff; color: #f9fa00;}
 
 
 #main-menu-button {line-height: 50px;font-size: 1.8rem;color: #ddd;}
-#main-menu-button:hover {color: #ffffff;}
+#main-menu-button:hover {color: #fff;}
 #main-back-button {top: 8px;right: 330px;background-size: 30px 30px;}
 #main-forward-button {top: 8px;background-size: 30px 30px;right: 300px;}
 #main-search-input {width: 200px;height: 24px;font-size: 13px; margin-top:-14px;}
