@@ -20,6 +20,7 @@
 
 
 #main-menu-button {line-height: 50px;font-size: 1.8rem;color: #ddd;}
+#main-menu-button:hover {color: #ffffff;}
 #main-back-button {top: 8px;right: 330px;background-size: 30px 30px;}
 #main-forward-button {top: 8px;background-size: 30px 30px;right: 300px;}
 #main-search-input {width: 200px;height: 24px;font-size: 13px; margin-top:-14px;}
