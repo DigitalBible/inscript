@@ -4,6 +4,7 @@
 #app-logo 	{
 	background-image: url(https://images.bible.cloud/inscript_link_white.svg);
 	top: 12px;left: 66px; width: 112px; height: 22px; background-size: 112px 22px;}
+#app-logo a:hover {background-image: url(https://images.bible.cloud/inscript_link_blue.svg)}	
 		
 .windows-header {
 	height: 48px; padding-right: 10px;padding:0; margin:0; border-bottom: 1px solid #16456D;
