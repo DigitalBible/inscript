@@ -19,7 +19,7 @@
 #app-logo:hover .icon {fill: #ffffff; color: #f9fa00;}
 
 
-#main-menu-button {line-height: 50px;font-size: 1.8rem;color: #ddd;}
+#main-menu-button {line-height: 50px;font-size: 1.6rem;color: #ddd;}
 #main-menu-button:hover {color: #fff;}
 #main-back-button {top: 8px;right: 330px;background-size: 30px 30px;}
 #main-forward-button {top: 8px;background-size: 30px 30px;right: 300px;}
