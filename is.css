@@ -16,7 +16,7 @@
  	border-right: 2px solid #ccc; border-bottom:thin #D8D8D8 groove;}
 
 #app-logo .icon {position: absolute; left: 66px; height: 30px; width: 200px; fill: #f4f4f4; color: #d2d2d2;}
-#app-logo:hover .icon {fill: #000; color: #BADA55;}
+#app-logo:hover .icon {fill: #000; color: yellow;}
 
 #main-menu-button {line-height: 50px;font-size: 1.8rem;color: #ddd;}
 #main-back-button {top: 8px;right: 330px;background-size: 30px 30px;}
