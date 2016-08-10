@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html><head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<title>About inScript™</title>
+	
+    <!-- internet libraries -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>	
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery.ui.all.css"></script>	
+    
+    <!---Treasures Libraries 
+	<script src="../js/jquery.min.js" type="text/javascript"></script> -->
+    
+	<!-- Apple specific code -->
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />			
+	<link rel="stylesheet" href="build/build.css?v=20140519" />	
+	<!-- replacement console for IE -->
+	<script>if (typeof console == 'undefined') { window.console = {log:function() {}}; }</script>
+	<!-- Accordian Script   -->
+	<script>$(document).ready(function()
+	{$('.accordion-header').toggleClass('inactive-header');var contentwidth = $('.accordion-header').width();
+	$('.accordion-content').css({'width' : contentwidth });
+	$('.accordion-header').click(function () {
+		if($(this).is('.inactive-header')) {
+			$('.active-header').toggleClass('active-header').toggleClass('inactive-header').next().slideToggle().toggleClass('open-content');
+			$(this).toggleClass('active-header').toggleClass('inactive-header');
+			$(this).next().slideToggle().toggleClass('open-content');}		
+		else {$(this).toggleClass('active-header').toggleClass('inactive-header');
+			$(this).next().slideToggle().toggleClass('open-content');}});return false;});</script>
+
+
+<style type="text/css">
+    body {line-height: 1.5;font-family:helvetica, Arial, sans-serif;font-weight: 100}
+    h3 {margin:0px;font-size:1.3em;font-weight:300;}
+    h4 {margin:0px;font-size:1.1em;font-weight:300;}
+    h5 {margin:0px;font-size:1em;font-weight:300;}
+    #about_wrapper {margin:10px;font-family:Arial, Helvetica, sans-serif;font-size:.9em}
+    #about_wrapper hr {color:#ccc;width: 80%;margin:10px auto 5px auto}
+    #about_wrapper a, #about_wrapper a:link, #about_wrapper a:active, #about_wrapper a:visited, #about_wrapper a:hover {color:#0000FF;text-decoration: none;font-size:.9em;}
+    #about_wrapper a:hover {text-decoration: underline;}
+    .clearfix {width:100%;height:auto;display:block;margin:auto, *zoom: 1;}
+    .clearfix:before, .clearfix:after {content: " ";display: table;} .clearfix:after {clear: both;}
+    .leads {display: block;margin:0 2px 8px 0;width:184px;height:90px;float:left;}
+    .sponsers {display: block;margin:0 0 10px 10px;width:240px;float:left;}
+    .leads img, .sponsers img{height:44px;width:44px;float:left;margin:0px 10px 10px 0;-moz-border-radius: 6px;-webkit-border-radius: 6px;border: 0px solid transparent;-webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);-moz-box-shadow:2px 2px 5px 0px rgba(50, 50, 50, 0.75);box-shadow:2px 2px 5px 0px rgba(50, 50, 50, 0.75)}
+    .leads a:hover img, sponsers a:hover img{-webkit-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);-moz-box-shadow:    4px 4px 5px 0px rgba(50, 50, 50, 0.75);box-shadow:4px 4px 5px 0px rgba(50, 50, 50, 0.75);}
+    .sponsers img{height:60px;width:60px;}
+    .leads_title {display:block;font-size:.7em;color:#666;height:13px;}
+    .about_nav { dislay:inline-block;font-size:.9em;margin: 10px 0 40px 20px; list-style-type: none;}
+    .about_nav a{padding: 0 20px 0 0;}
+	.fb-like {margin:0 0 0 50px;}
+
+	#accordion-container {font-size: 13px;margin:0 20px 0 20px; background: #ffffff;padding: 5px 10px 10px 10px;border: 1px solid #cccccc;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;box-shadow:2px 2px 5px 0px #cccccc;}
+	.accordion-header {font-size: 14px; margin: 5px 0 7px 0;padding: 5px 20px;border: 1px solid #cccccc;cursor: pointer;color: #555; background: linear-gradient(to bottom, #ffffff 10%,#ededed 100%);-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;}
+	.active-header {color:#fff;-moz-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;border-radius: 5px 5px 0 0;background: linear-gradient(to bottom, #acd8f9 0%,#4885bf 100%);}
+	.active-header:after {content:"[-]";color:#fff;font-size:12px; margin:3px 0 0 0;float:right;}
+	.inactive-header {}
+	.inactive-header:after {content:"[+]";color:#555;font-size:12px; margin:3px 0 0 0;float:right;}
+	.accordion-content {display: none;padding: 20px;background: #ffffff;border: 1px solid #cccccc;border-top: 0;-moz-border-radius: 0 0 5px 5px;-webkit-border-radius: 0 0 5px 5px;border-radius:0 0 5px 5px;}
+</style>
+
+
+    
+    
+</head>
+<body>
+<div id="about_wrapper">
+<div style="float:left; margin: 0 25px 15px 0; width="225">
+<svg version="1.1" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+x="0px" y="0px" width="225px" height="100px" viewBox="0 0 225 100" overflow="inherit" xml:space="preserve">
+<image width="211" height="78" xlink:href="data:image/png;base64,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" transform="matrix(1.0002 0 0 1.0002 7 11)"></image>
+</svg>
+  <div id="facebook">
+    <div id="fb-root"></div><script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script></div>
+  <div class="fb-like" data-href="http://www.inscript.org" data-width="200" padding="0 0 0 15px" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+</div>
+<div class="about_nav" id="about">
+    <a href="#about">About</a>
+    <a href="#faqs">FAQs</a>
+    <a href="#feedback">Feedback</a>
+    <a href="#training">Training</a>
+    <a href="#copyright">Copyright</a>
+</div>
+
+<p>The all new inScript™ 3.0 is a simple-to-use, secure, browser-based, Bible study tool created by the <a href="http://www.digitalbiblesociety.org/" target="_blank">Digital Bible Society</a>, for both online and offline use. inScript™ is an open-source, multi-lingual and freely-accessible Bible delivery system.  Yet, inScript™ does not require software installation.  inScript™supports a variety of browsers, and can run off of a various media such as thumb drives, DVDs, and micro SD chips.</p>
+<p>inScript™ 3.0 can be found in all the latest Digital Bible Society Treasures libraries which can be obtained from our website and include numerous resources that can be freely copied and distributed in many languages. inScript promotes clear and simple reading while supporting complex search functions, side-by-side  Bible comparison, concordances, smart-scrolling Audio Bibles, multimedia, maps, footnotes, commentaries, Strongs-notes for Greek and Hebrew studies, and original language word studies.  As an open source Bible project, inScript™ promotes free and widespread distribution and was specifically designed for restricted access countries and regions.  </p>
+<p>We invite you to not only share this resource, but to help inScript™ continue to expand its content and functionality.  <a href="http://www.digitalbiblesociety.org/dbs/about/contact/" target="_blank">Contact us</a> to get involved.</p>
+<hr />
+
+
+<div class="clearfix"></div>
+
+<hr />
+<h4>Project Leads</h4>
+    <div class="leads"><a href="http://j.hn/" target="_blank"><img src="//inscript.bible.cloud/about/lead_dyer.jpg" alt="John Dyer">John Dyer</a><span class="leads_title">System Architect, Project Lead</span></div>
+    <div class="leads"><a href="http://www.mljohnson.org/" target="_blank"><img src="//inscript.bible.cloud/about/lead_johnson.jpg" alt="Michael Johnson" /> Michael Johnson</a><span class="leads_title">Bible Management, Strategic Development</span></div>
+    <div class="leads"><a href="http://www.jon.gabriel.org" target="_blank"><img src="//inscript.bible.cloud/about/lead_gabriel.jpg" alt="Jon Gariel" />Jonathan Gabriel</a><span class="leads_title">Programming, Design, Optimization</span></div>
+    <div class="leads"><a href="http://www.goodwillrights.com" target="_blank"><img src="//inscript.bible.cloud/about/lead_dobrowolski.jpg" alt="Carl Dobrowolski">Carl Dobrowolski</a><span class="leads_title">Rights Management</span></div>
+    <div class="leads"><a href="http://www.dbsbible.org" target="_blank"><img src="//inscript.bible.cloud/about/lead_allen.jpg" alt="Ken Allen">Ken Allen</a><span class="leads_title">Project Director</span></div>
+    <div class="clearfix"></div>
+<p>Project contributors include Dalton Mullins, Jeremiah Michaels (Graphic Design); John Bishara (Content Management); Nathan Daniels (Image & Map Library, Research); Jon Michael (Research), Kate Dickson, Daylon Rogers, Ling Lie (Quality Control); Nancy Keel (Audio Research) and numerous individuals who have given of their time, energy, and resources to insure that God's Word is accessible in every language.</p>
+
+<hr>
+
+<h4>Major Content Contributors</h4>
+
+    <div class="leads"><a href="http://www.bibleleague.org" target="_blank"><img src="//inscript.bible.cloud/about/partners_bibleleague.jpg" alt="BibleLeague Intl.">BibleLeague Intl.</a><span class="leads_title">Planting God's Word so people meet Jesus</span></div>
+    <div class="leads"><a href="http://www.biblica.com" target="_blank"><img src="//inscript.bible.cloud/about/partners_biblica.jpg" alt="Biblica">Biblica</a><span class="leads_title">Transforming Lives through God's Word</span></div>
+    <div class="leads"><a href="http://www.bible.is" target="_blank"><img src="//inscript.bible.cloud/about/partners_fcbh.jpg" alt="Faith Comes by Hearing">Faith Comes by Hearing</a><span class="leads_title">Creators of Bible.is</span></div>
+    <div class="leads"><a href="http://ibt.org.ru/" target="_blank"><img src="//inscript.bible.cloud/about/partners_ibt.jpg" alt="Institute for Bible Translation">Institute for Bible Translation</a><span class="leads_title">Languages of Russia</span></div>
+
+    <div class="leads"><a href="http://www.jesusfilm.org" target="_blank"><img src="//inscript.bible.cloud/about/partners_jfp.jpg" alt="Jesus Film Project">Jesus Film Project</a><span class="leads_title">Because Seeing is Believing</span></div>
+    <div class="leads"><a href="http://www.lockman.org" target="_blank"><img src="//inscript.bible.cloud/about/partners_lockman.jpg" alt="Lockman Foundation">Lockman</a><span class="leads_title">The Standard of Biblical Excellence</span></div>
+    <div class="leads"><a href="http://www.mars-hill.org" target="_blank"><img src="//inscript.bible.cloud/about/partners_marshill.jpg" alt="Mars Hill Productions">Mars Hill Productions</a><span class="leads_title">Maker of "The Hope"</span></div>
+    <div class="leads"><a href="http://www.pioneerbible.org" target="_blank"><img src="//inscript.bible.cloud/about/partners_pioneer.jpg" alt="Pioneer Bible Translators">Pioneer Bible Translators</a><span class="leads_title">Transformed Lives through God's Word</span></div>
+    <div class="leads"><a href="http://www.sim.org" target="_blank"><img src="//inscript.bible.cloud/about/partners_sim.jpg" alt="SIM">SIM</a><span class="leads_title">Serving in Mission</span></div>
+    <div class="leads"><a href="http://www.unitedbiblesocieties.org" target="_blank"><img src="//inscript.bible.cloud/about/partners_ubs.jpg" alt="UBS">United Bible Societies</a><span class="leads_title">The Bible for Everyone</span></div>
+    <div class="leads"><a href="http://www.wycliffe.org" target="_blank"><img src="//inscript.bible.cloud/about/partners_wycliffe.jpg" alt="Wycliffe">Wycliffe Translators</a><span class="leads_title">World Mission for Unreached People Groups</span></div>
+    <div class="clearfix"></div>
+<p>Special  thanks to <a href="http://www.bible.is" target="_blank">Faith Comes by Hearing</a> and <a href="http://www.jesusfilm.org" target="_blank">Jesus Film Project</a> who have partnered with us to stream Audio and Video Bibles in over a thousand languages.</p>
+
+
+<hr />
+<h2 id="faqs">Frequently Asked Questions</h2>
+
+<div id="accordion-container">
+<h3>Bibles:</h3>
+<h2 class="accordion-header">What do I do if I cannot find the Bible I want to read on inScript?</h2>
+<div class="accordion-content"><p>The Digital Bible Society is continually adding new Bibles and
+updating old Bibles in inScript. Currently, dozens of
+Bibles are being added to inScript every month. Please check back later to see if the Bible you're looking for has been added.</p>
+
+<p>If there is a particular Bible you would like to see on the
+inScript platform, please contact us. We would
+love to hear from you about your favorite Bible in any
+language. Please include as much information as possible on the Bible,
+especially copyright information.</p>
+
+<p>Keep in mind that several Bible publishers require a royalty for
+the right to distribute the Bibles they publish. Since the Digital
+Bible Society is a non-profit ministry, we ask that you consider
+sponsoring a Bible not currently available on inScript.</p>
+</div>
+
+<h2 class="accordion-header">What should I do if I find an error in a Bible?</h2>
+<div class="accordion-content"><p>If you find a technical, semantic, linguistic, or content error in
+a Bible, please contact us directly on our feedback page. We
+will do our best to look into it as soon as possible. Please be as
+detailed as you can when submitting an error report.</p>
+</div>
+
+ 
+<h2 class="accordion-header">Why are some Bibles on inScript incomplete?</h2>
+<div class="accordion-content"><p>Since the work of translating a Bibles takes many years and sometimes decades, 
+the Digital Bible Society has been asked to assist in getting the Word out 
+by delivering portions of the Bible that would not be otherwise available.
+<p>To help get these much needed Bible translations out as soon as
+possible we partner with Bible translators and translation agencies to publish completed
+books of the Bible as soon as they are deemed ready for publication. 
+Once a Bible is finished, the portion is then replaced as the Bible agency deems appropriate. </p>
+<p>Please contact us, if you or your organization have recently
+completed or are undergoing a new translation project and would like
+it to be immediately available via inScript. We will
+gladly partner with Bible translators to insure that God's Word is
+made immediately deliverable as soon as even one or a few books of
+the Bible are ready for digital delivery.</p>
+</div>
+
+<h2 class="accordion-header">Are additional Bibles being accepted for inScript?</h2>
+<div class="accordion-content">
+  <p>The answer is yes! As a member of the Forum of Bible Agencies International 
+  <a href="http://www.forum-intl.org/" target="_blank">(FOBAI)</a>, we accept the
+inclusion of Bibles recognized and endorsed by FOBAI. Please contact us
+or another agency affiliated with FOBAI to go through the process of
+receiving endorsement for a particular Bible to show up on inScript.</p>
+</div>
+<h2 class="accordion-header">Can I freely distribute the Bibles available on inScript?</h2>
+<div class="accordion-content"><p>Many Bible translations available on inScript have certain
+copyright and distribution restrictions. These restrictions may apply
+to any part of the text, a certain amount of the text, or a
+particular published form, such as a digital publication. The Digital
+Bible Society respects the copyright laws binding the agreement of
+the usage of the Bibles we make available to the world via the
+inScript digital Bible platform. Therefore, we have included easily
+accessible copyright information for each Bible published on
+inScript.</p>
+
+<p>You can access basic copyright information by clicking on the "i"
+icon located at the top header bar of each Bible opened on inScript.
+For additional information on copyright and distribution limitations,
+please research or contact the respective agency responsible
+for the publication directly.</p>
+
+<p>Other Bibles available through inScript are either in the Public
+Domain or licensed through <a href="http://us.creativecommons.org/" target="_blank">Creative
+Commons</a>.</p>
+
+<p>As God's Word says, "All who are thirsty, come to the water!
+You who have no money, come! Buy and eat! Come! Buy wine and milk
+without money and without cost... Pay attention and come to me!
+Listen, so you can live! Then I will make an unconditional covenantal
+promise to you, just like the reliable covenantal promises I made to
+David. Look, I made him a witness to nations" Isaiah 55:1, 3-4
+(NET).</p>
+</div>
+
+
+
+<h3>Support:</h3>
+
+<h2 class="accordion-header">What should I do if I am having a problem loading inScript?</h2>
+<div class="accordion-content"><p>In view of the wide variety of browsers available and the many
+different types of internet-accessible devices, occasionally inScript
+will have trouble loading. If you continue having issues with loading
+inScript or any of the Bibles, features, or media we have a few
+recommendations. 
+</p>
+<p>First Option: Click on the gear icon that appears at the top right
+of the page. Scroll down on this drop down menu to find a “Restore”
+option and click it. This will reset the inScript interface to the
+default windows. 
+</p>
+<p>Second Option: If that does not work, try resetting your web
+browser. This <a href="http://www.howtogeek.com/171924/how-to-reset-your-web-browser-to-its-default-settings/">site</a>
+provides easy to follow instructions on performing a “hard reset”
+on common web browsers. For other browsers, please do a web search.
+</p>
+<p>Browser Recommendation: We find that the online version of
+inScript works best on Firefox.</p>
+</div>
+
+ 
+<h2 class="accordion-header">What can I do if inScript is running slowly on my device?</h2>
+<div class="accordion-content"><p>inScript was created to work on most standard internet
+connections. However, if you have a weak or slow connection,
+please be patient with inScript as it load Bibles and other media. 
+</p>
+<p>You can try resetting the internet, moving to a different
+location, opening inScript on a different internet connection, or
+contacting your internet provider. You can also clear the cache on
+your web browser to improve the performance. 
+</p>
+<p>Sometimes you might experience longer than expected delays on
+searches in one or more Bibles. This might be due to some Bibles not
+being pre-indexed to help searches process faster. </p>
+</div>
+
+<h2 class="accordion-header">Can I print Bible text from inScript?</h2>
+<div class="accordion-content"><p>To print what is currently viewable on your screen, just click the
+print option on your browser. If you would like to print more than
+what currently appears on your screen, use the copy and paste
+function. You can either transfer the copied
+text to another program (such as Microsoft Word) to print or
+click and drag to highlight material, then right click and choose
+the print option.</p>
+</div>
+
+<h2 class="accordion-header">How do I get inScript as a Mobile App?</h2>
+<div class="accordion-content"><p>At present, inScript can be accessed through most web browsers
+across devices. In the near future, inScript Apps currently in
+development will be widely available for free in a convenient, easy-to-use format. These inScript Apps will be available
+soon on Android, IOS, and Windows 8. Please check back soon for more
+information on tentative publication dates and links for immediate
+download.</p>
+</div>
+ 
+ <h2 class="accordion-header">How can I support the inScript project and the Digital Bible
+Society?</h2>
+<div class="accordion-content">
+  <p>Join us in praying that
+inScript will be used by God to deliver the Scriptures in
+every heart language.</p>
+
+<p>Create a link to inScript and to the Digital Bible Society! It's really easy and it can help get the WORD out.</p>
+
+<p>Inform your friends about
+the inScript project and the work of
+the Digital Bible Society. Encourage them to use these resources.</p>
+
+<p>Become a contributing member on our social networks.</p>
+
+<p>Please consider making a donation that will go towards
+improving inScript.</p>
+</div>
+</div>
+<br>
+<hr>
+<h2 id="training">Training</h2>
+<p>Training Videos can be viewed online from <a href="http://www.digitalbiblesociety.org/dbs/libraries/training/" target="_blank">our website</a>.
+<hr>
+<h2 id="copyright">Copyright</h2>
+<a href="http://www.DigitalBibleSociety.org" target="_blank"><svg style="float:right; padding-left:10px" alt="Digital Bible Society"  xml:space="preserve" width="225" height="130"><style>text{fill:#6c6c6c;font-family:'Century Gothic';font-size:13px;kerning:-.5}rect,ellipse{fill:#666}.a{fill:#CDE}.b{fill:#ACD;opacity:.7}.c{fill:#48B;opacity:.8}.d{fill:#26B}.e{fill:#7AD}.f{fill:#9BD}.g{fill:#999}.h{fill:#26B}</style><g><path class="a" d="M 131.5 42 q -10.5 -15 -35 -23.5 q 23 34 -8.2 64.5 q 30 -10 43.2 -41"/><path class="b" d="M 148.5 53 q -10 -20 -27.5 -31 q 0 44 -32.8 61 q 39 -2.5 60.2 -30"/><path class="c" d="M 157 59 q -4 -14 -15 -29 q -8.5 47 -53.8 53 q 52 -2 68.8 -24"/><path class="d" d="M 160 78 q 0 -5.8 -1.5 -10.5 q -22 15 -70.2 15.5 q 30 0.5 71.8 -5"/><path class="e" d="M 10 79 q 0 -5 1.5 -12 q 19 15.5 64.5 16 q -25 1 -66 -4"/><path class="f" d="M 13 59 q 0 -2 4 -15 q 17 35 59 39 q -45 -1 -63 -24"/><rect width="69" height="3.2" x="10" y="84"/><rect width="69" height="3.2" x="91" y="84"/><rect width="125" height="4.8" x="23" y="86.5"/><ellipse cx="150.5" cy="87" rx="9.5" ry="3"/><ellipse cx="19.5" cy="87" rx="9.5" ry="3"/><rect width="12" height="7" x="73" y="84" rx="20" ry="20"/><rect width="12" height="7" x="85" y="84" rx="20" ry="20"/><circle class="g" width="2.5" height="2" cx="144.8" cy="87.5" r="1.5"/><rect class="g" width="19.5" height="2" x="120.8" y="86.8"/><text x="21" y="105">DIGITAL</text><text class="h" x="69" y="105">BIBLE</text><text x="101" y="105">SOCIETY</text></g></svg>
+</a>
+<p>All content in inScript remains the property of the copyright holder and may not be altered or distributed without  written consent from the publisher. Bibles in the public domain or with Creative Commons licensing are noted in each Bible's &quot;About&quot; page.</p> 
+<p>inScript is an open-source community project and we value your input.  Should you desire to publish inScript on your website, please contact the Digital Bible Society for details. Source code is available <a href="https://github.com/digitalbiblesociety/browserbible-3">here</a>.</p>
+
+</body></html>
