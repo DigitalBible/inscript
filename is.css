@@ -23,8 +23,8 @@
 #main-back-button {top: 8px;right: 330px;background-size: 30px 30px;}
 #main-forward-button {top: 8px;background-size: 30px 30px;right: 300px;}
 #main-search-input {width: 200px;height: 24px;font-size: 13px; margin-top:-14px;}
-#main-search-button {width: 28px;height: 24px; margin-top:-14px;}
-#main-fullscreen-button {top: 10px; right: 13px;background-size: 28px 28px; background-repeat:no-repeat;}
+#main-search-button {width: 28px;height: 24px; margin-top:-7px;}
+#main-fullscreen-button {top: 8px; right: 12px;background-size: 24px 24px; width:24px; height:24px; background-repeat:no-repeat;}
 
 #main-menu-dropdown {width: 300px; -x-height: 280px;background: #fff;top: 48px;}
 
