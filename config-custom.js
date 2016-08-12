@@ -1,6 +1,6 @@
 sofia.config = $.extend(sofia.config, {
         // Update date after making changes
-          settingsPrefix: '20160814',
+          settingsPrefix: '20160815',
         
         // Paths    
           baseContentUrl: 'https://inscript.bible.cloud/',
