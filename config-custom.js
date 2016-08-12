@@ -5,7 +5,7 @@ sofia.config = $.extend(sofia.config, {
         // Paths    
           baseContentUrl: 'https://inscript.bible.cloud/',
           textsIndexPath: 'dbs_texts.json',
-          serverSearchPath: 'https://api.bible.cloud/bible/study/search/',
+          serverSearchPath: 'https://api.bible.cloud/api/bible/study/search/',
           aboutPagePath: 'about-inscript.html',
      	// URL to custom CSS    customCssUrl: '',
             
