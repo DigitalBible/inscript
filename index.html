@@ -5,13 +5,18 @@
     <meta name="google" value="notranslate" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no,width=device-width">
-    <link rel="stylesheet" href="https://inscript.bible.cloud/build/is3.min.css" />
-    <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
-    <script src="https://inscript.bible.cloud/build/is3.min.js"></script>
-    <script src="is3.min.js"></script>
+    <meta property="og:title" content="inScript Bible Browser | Read. Listen. Search." />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Bible study application with Greek and Hebrew integration, syntax highlighting, and other fun goodies." />
+    <meta property="og:url" content="https://www.inscript.html" />
+    <meta property="og:image" content="https://inscript.bible.cloud/inscript_facebook_1200x630" />
+    <noscript><meta http-equiv="refresh" content="1; url=content/texts/"></noscript>
 
 <!-- Icons and Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="//images.bible.cloud/icons-bc/apple-touch-icon.png">
+    <link rel="apple-touch-startup-image" href="https://inscript.bible.cloud/startup.png" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
     <link rel="icon" type="image/png" href="//images.bible.cloud/icons-bc/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="//images.bible.cloud/icons-bc/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="//images.bible.cloud/icons-bc/manifest.json">
@@ -20,15 +25,25 @@
     <meta name="msapplication-config" content="//images.bible.cloud/icons-bc/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-<!-- Custom inScript -->
-    <script src="config-custom.js?v=4.0.0"></script>
-    <link rel="stylesheet" href="is.css" />
+<!-- Build -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>	
+	<script src="https://inscript.bible.cloud/build/is3.min.js?v=3.6.0"></script>
+    <link rel="stylesheet" href="https://inscript.bible.cloud/build/is3.min.css?v=3.6.0" />
+    
+ <!-- iCustom -->
+    <script src="config-custom.js?v=3.6.0"></script>
+    <link rel="stylesheet" href="is-custom.css?v=3.6.0" />
 
 </head>
 <body>
+	<div id="startup">
+		<h1>inScript Bible Browser (3.6)</h1>
+		<p>inScript 3.6 is a Bible-study tool created by the Digital Bible Society for both online and offline use. The software is open-source, browser-based, multi-lingual, and free-to-use. It requires no installation and supports a wide variety of web-browsers and media platforms: thumb drives, DVDs, micro SD chips, etc.</p>
+		<p>Developed by <a href="https://www.dbs.org/">Digital Bible Society</a> with major contributions from <a href="https://j.hn/">John Dyer</a> and <a href="https://ebible.org/">Michael Johnson</a>. Audio provided by <a href="https://www.faithcomesbyhearing.com/‎">Faith Comes by Hearing</a> and video by <A href="https://www.jesusfilm.org/‎">Jesus Film Project</a>.</p>
+	</div>
 
-<script>$( document ).ready(function() {
-$( "#app-logo" ).wrapInner( '<a href="//bible.cloud/"><svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="inscript.svg#logo"></use></svg></a>' );
+
+<script>$( document ).ready(function() {$( "#app-logo" ).wrapInner( '<a href="//bible.cloud/"><svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="inscript.svg#logo"></use></svg></a>' );
 });</script>
 
 <script>
@@ -40,7 +55,5 @@ $( "#app-logo" ).wrapInner( '<a href="//bible.cloud/"><svg class="icon"><use xml
   ga('create', 'UA-75606747-4', 'auto');
   ga('send', 'pageview');
 </script>
-
-
 </body>
 </html>
