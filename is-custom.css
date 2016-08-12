@@ -15,7 +15,6 @@
 	background-image: url(https://images.bible.cloud/noise.png), -moz-linear-gradient(left,  #f9f9f9 0%,#f0f0f0 100%); 
  	border-right: 2px solid #ccc; border-bottom:thin #D8D8D8 groove;}
 
-.icon		{width:26px;}
 #app-logo .icon	{position: absolute; height: 46px; width: 104px; left: 9px; fill: #ddd; color: #89b1d6;}
 #app-logo:hover .icon {fill: #ffffff; color: #f9fa00;}
 
@@ -26,7 +25,7 @@
 #main-forward-button {top: 8px;background-size: 30px 30px;right: 300px;}
 #main-search-input {width: 200px;height: 24px;font-size: 13px; margin-top:-14px;}
 #main-search-button {width: 28px;height: 24px; margin-top:-7px;}
-#main-fullscreen-button {top: 8px; right: 16px;background-size: 24px 24px; width:24px; height:24px; background-repeat:no-repeat;}
+#main-fullscreen-button .icon {top: 8px; right: 16px;background-size: 24px 24px; width:24px; height:24px; background-repeat:no-repeat;}
 
 #main-menu-dropdown {width: 300px; -x-height: 280px;background: #fff;top: 48px;}
 
