@@ -18,8 +18,8 @@
 #app-logo .icon	{position: absolute; height: 46px; width: 104px; left: 9px; fill: #ddd; color: #89b1d6;}
 #app-logo:hover .icon {fill: #ffffff; color: #f9fa00;}
 
-#aboutWindow-button 	{fill: #666;}
-#aboutWindow-button:hover {stroke: #333; fill: #333}
+#aboutWindow-button .icon {fill: #666;}
+#aboutWindow-button:hover .icon {stroke: #333; fill: #333}
 #main-menu-button .icon {line-height: 50px;font-size: 1.6rem;color: #ddd;}
 #main-menu-button:hover .icon {color: #fff;}
 #main-back-button .icon {top: 8px;right: 330px;background-size: 30px 30px;}
